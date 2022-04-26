@@ -1,0 +1,8 @@
+*.pyc
+data/others/*
+.idea/*
+.settings/*
+.idea/workspace.xml
+.idea/workspace.xml
+.idea/workspace.xml
+*.pyc

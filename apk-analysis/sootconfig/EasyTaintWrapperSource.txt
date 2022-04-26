@@ -1,0 +1,493 @@
+# Packages to include in the analysis
+^android.
+^java.
+^org.apache.http.
+
+<java.util.Stack: java.lang.Object push(java.lang.Object)>
+
+-<java.util.Map: void clear()>
+
+<java.util.TreeMap: void <init>(java.util.Map)>
+<java.util.WeakHashMap: void <init>(java.util.Map)>
+<java.util.ConcurrentHashMap: void <init>(java.util.Map)>
+<java.util.LinkedHashMap: void <init>(java.util.Map)>
+<java.util.LinkedHashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
+
+<java.util.HashMap: void <init>(java.util.Map)>
+<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
+
+<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>
+<java.util.Map: java.lang.Object putAll(java.util.Map)>
+
+<java.util.List: boolean add(java.lang.Object)>
+<java.util.List: void add(int,java.lang.Object)>
+<java.util.List: boolean addAll(java.util.Collection)>
+<java.util.List: boolean addAll(int,java.util.Collection)>
+-<java.util.List: void clear()>
+<java.util.List: java.util.Iterator iterator()>()
+
+<java.util.Iterator: java.lang.Object next()>
+
+<java.util.HashSet: boolean add(java.lang.Object)>
+
+<java.util.Hashtable: java.lang.Object put(java.lang.Object,java.lang.Object)>
+
+<java.util.ArrayList: void <init>(java.util.Collection)>
+<java.util.ArrayList: boolean add(java.lang.Object)>
+<java.util.ArrayList: boolean addAll(java.util.Collection)>
+
+<java.util.LinkedList: void <init>(java.util.Collection)>
+<java.util.LinkedList: boolean add(java.lang.Object)>
+<java.util.LinkedList: boolean addAll(java.util.Collection)>
+
+<java.util.Set: boolean add(java.lang.Object)>
+<java.util.Set: boolean addAll(java.util.Collection)>
+-<java.util.Set: void clear()>
+<java.util.Set: java.lang.Object[] toArray()>
+<java.util.Set: java.lang.Object[] toArray(java.lang.Object[])>
+
+<java.util.Collection: boolean add(java.lang.Object)>
+<java.util.Collection: boolean addAll(java.util.Collection)>
+-<java.util.Collection: void clear()>
+
+<java.util.Collections: boolean addAll(java.util.Collection,java.lang.Object[])>
+
+<java.util.Vector: void <init>(java.util.Collection)>
+<java.util.Vector: void add(int,java.lang.Object)>
+<java.util.Vector: boolean add(java.lang.Object)>
+<java.util.Vector: boolean addAll(java.util.Collection)>
+<java.util.Vector: void addElement(java.lang.Object)>
+-<java.util.Vector: void clear()>
+<java.util.Vector: java.lang.Object elementAt(int)>
+<java.util.Vector: java.lang.Object remove(int)>
+<java.util.Vector: java.lang.Object[] toArray(java.lang.Object[])>
+<java.util.Vector: void add(int,java.lang.Object)>
+<java.util.Vector: void addElement(java.lang.Object)>
+
+<java.util.StringTokenizer: java.lang.String nextToken()>
+
+<java.io.StringReader: void <init>(java.lang.String)>
+
+<java.util.Random: boolean nextBoolean()>
+<java.util.Random: double nextDouble()>
+<java.util.Random: float nextFloat()>
+<java.util.Random: int nextInt()>
+<java.util.Random: int nextInt(int)>
+<java.util.Random: long nextLong()>
+
+<java.util.Properties: java.lang.Object clone()>
+<java.util.Properties: java.lang.Object get(java.lang.Object)>
+<java.util.Properties: java.lang.Object put(java.lang.Object,java.lang.Object)>
+<java.util.Properties: java.lang.String getProperty(java.lang.String)>
+<java.util.Properties: java.lang.String getProperty(java.lang.String,java.lang.String)>
+<java.util.Properties: java.lang.String toString()>
+<java.util.Properties: java.util.Enumeration propertyNames()>
+<java.util.Properties: java.util.Set entrySet()>
+<java.util.Properties: java.util.Set keySet()>
+
+<java.util.Queue: boolean add(java.lang.Object)>
+<java.util.Queue: boolean offer(java.lang.Object)>
+<java.util.Queue: java.lang.Object remove()>
+<java.util.Queue: java.lang.Object poll()>
+<java.util.Queue: java.lang.Object element()>
+<java.util.Queue: java.lang.Object peek()>
+
+<java.lang.StringBuilder: void <init>(java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char[])>
+<java.lang.StringBuilder: java.lang.StringBuilder append(char[],int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(double)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(float)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.CharSequence)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.CharSequence,int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.StringBuffer)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,boolean)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char[])>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,char[],int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,double)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,float)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,int)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,long)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.Object)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.CharSequence)>
+<java.lang.StringBuilder: java.lang.StringBuilder insert(int,java.lang.CharSequence,int,int)>
+
+<java.lang.StringBuffer: void <init>(java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(boolean)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char[])>
+<java.lang.StringBuffer: java.lang.StringBuffer append(char[],int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(double)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(float)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(long)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence,int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,boolean)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[])>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,char[],int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,double)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,float)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,int)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,long)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.Object)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.CharSequence)>
+<java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.CharSequence,int,int)>
+
+<java.lang.String: void <init>(byte[])>
+<java.lang.String: void <init>(byte[],int,int)>
+<java.lang.String: void <init>(byte[],int,int,java.lang.String)>
+<java.lang.String: void <init>(byte[],java.lang.String)>
+<java.lang.String: void <init>(char[])>
+<java.lang.String: void <init>(char[],int,int)>
+<java.lang.String: void <init>(int[],int,int)>
+<java.lang.String: void <init>(java.lang.String)>
+<java.lang.String: void <init>(java.lang.StringBuffer)>
+<java.lang.String: void <init>(java.lang.StringBuilder)>
+
+<java.lang.String: java.lang.String valueOf(boolean)>
+<java.lang.String: java.lang.String valueOf(char)>
+<java.lang.String: java.lang.String valueOf(char[])>
+<java.lang.String: java.lang.String valueOf(char[],int,int)>
+<java.lang.String: java.lang.String valueOf(double)>
+<java.lang.String: java.lang.String valueOf(float)>
+<java.lang.String: java.lang.String valueOf(int)>
+<java.lang.String: java.lang.String valueOf(long)>
+<java.lang.String: java.lang.String valueOf(java.lang.Object)>
+
+<java.lang.String: java.lang.String concat(java.lang.String)>
+
+<java.lang.String: java.lang.String format(java.util.Locale,java.lang.String,java.lang.Object[])>
+<java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>
+
+<java.lang.String: char[] toCharArray()>
+
+<java.lang.String: java.lang.String replaceAll(java.lang.String,java.lang.String)>
+
+<java.lang.Integer: java.lang.String toBinaryString(int)>
+<java.lang.Integer: java.lang.String toHexString(int)>
+<java.lang.Integer: java.lang.String toOctalString(int)>
+
+<java.lang.Integer: void <init>(int)>
+<java.lang.Integer: void <init>(java.lang.String)>
+<java.lang.Integer: int parseInt(java.lang.String)>
+<java.lang.Integer: int parseInt(java.lang.String,int)>
+<java.lang.Integer: java.lang.Integer valueOf(int)>
+<java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>
+<java.lang.Integer: java.lang.Integer valueOf(java.lang.String,int)>
+<java.lang.Integer: java.lang.Integer toString(int)>
+<java.lang.Integer: java.lang.Integer toString(int,int)>
+
+<java.lang.Long: void <init>(long)>
+<java.lang.Long: void <init>(java.lang.String)>
+<java.lang.Long: long parseLong(java.lang.String)>
+<java.lang.Long: long parseLong(java.lang.String,int)>
+<java.lang.Long: java.lang.Long valueOf(long)>
+<java.lang.Long: java.lang.Long valueOf(java.lang.String)>
+<java.lang.Long: java.lang.Long valueOf(java.lang.String,int)>
+<java.lang.Long: java.lang.String toString(long)>
+<java.lang.Long: java.lang.String toString(long,int)>
+
+<java.lang.Short: double doubleValue()>
+<java.lang.Short: java.lang.Short valueOf(java.lang.String)>
+<java.lang.Short: java.lang.Short valueOf(java.lang.String,int)>
+<java.lang.Short: java.lang.Short valueOf(short)>
+<java.lang.Short: long parseShort(java.lang.String)>
+<java.lang.Short: long parseShort(java.lang.String,int)>
+
+<java.lang.Math: double abs(double)>
+<java.lang.Math: double acos(double)>
+<java.lang.Math: double asin(double)>
+<java.lang.Math: double atan2(double,double)>
+<java.lang.Math: double ceil(double)>
+<java.lang.Math: double cos(double)>
+<java.lang.Math: double floor(double)>
+<java.lang.Math: double hypot(double,double)>
+<java.lang.Math: double log(double)>
+<java.lang.Math: double log10(double)>
+<java.lang.Math: double max(double,double)>
+<java.lang.Math: double min(double,double)>
+<java.lang.Math: double pow(double,double)>
+<java.lang.Math: double random()>
+<java.lang.Math: double signum(double)>
+<java.lang.Math: double sin(double)>
+<java.lang.Math: double sqrt(double)>
+<java.lang.Math: double tan(double)>
+<java.lang.Math: double toDegrees(double)>
+<java.lang.Math: double toRadians(double)>
+<java.lang.Math: double ulp(double)>
+<java.lang.Math: float abs(float)>
+<java.lang.Math: float max(float,float)>
+<java.lang.Math: float min(float,float)>
+<java.lang.Math: int abs(int)>
+<java.lang.Math: int max(int,int)>
+<java.lang.Math: int min(int,int)>
+<java.lang.Math: int round(float)>
+<java.lang.Math: long abs(long)>
+<java.lang.Math: long max(long,long)>
+<java.lang.Math: long min(long,long)>
+<java.lang.Math: long round(double)>
+
+<java.lang.Float: void <init>(float)>
+<java.lang.Float: void <init>(java.lang.String)>
+<java.lang.Float: float parseFloat(java.lang.String)>
+<java.lang.Float: java.lang.Float valueOf(float)>
+<java.lang.Float: java.lang.Float valueOf(java.lang.String)>
+<java.lang.Float: java.lang.String toString(float)>
+
+<java.lang.Double: void <init>(double)>
+<java.lang.Double: void <init>(java.lang.String)>
+<java.lang.Double: double parseDouble(java.lang.String)>
+<java.lang.Double: java.lang.Double valueOf(float)>
+<java.lang.Double: java.lang.Double valueOf(java.lang.String)>
+<java.lang.Double: java.lang.String toString(double)>
+
+<java.lang.Boolean: void <init>(boolean)>
+<java.lang.Boolean: void <init>(java.lang.String)>
+<java.lang.Boolean: java.lang.Boolean valueOf(boolean)>
+<java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>
+<java.lang.Boolean: java.lang.String toString(boolean)>
+
+<java.lang.Character: void <init>(char)>
+<java.lang.Character: java.lang.Boolean valueOf(char)>
+<java.lang.Character: char forDigit(int,int)>
+<java.lang.Character: char charValue()>
+
+<java.lang.Byte: java.lang.Byte valueOf(byte)>
+<java.lang.Byte: java.lang.Byte valueOf(java.lang.String)>
+<java.lang.Byte: java.lang.Byte valueOf(java.lang.String,int)>
+<java.lang.Byte: long parseByte(java.lang.String)>
+<java.lang.Byte: long parseByte(java.lang.String,int)>
+
+<java.lang.Error: void <init>(java.lang.String)>
+
+<java.lang.Exception: void <init>(java.lang.String)>
+
+<java.lang.ref.Reference: void <init>()>
+<java.lang.ref.WeakReference: void <init>(java.lang.Object)>
+
+<java.math.BigDecimal: void <init>(int)>
+<java.math.BigDecimal: void <init>(double)>
+<java.math.BigDecimal: void <init>(java.lang.String)>
+<java.math.BigDecimal: void <init>(java.math.BigInteger,int)>
+<java.math.BigDecimal: void <init>(long)>
+
+<java.math.BigInteger: void <init>(byte[])>
+<java.math.BigInteger: void <init>(int,byte[])>
+<java.math.BigInteger: void <init>(java.lang.String)>
+<java.math.BigInteger: void <init>(java.lang.String,int)>
+<java.math.BigInteger: java.math.BigInteger valueOf(long)>
+
+<java.io.FileInputStream: void <init>(java.io.File)>
+
+<java.text.MessageFormat: void <init>(java.lang.String)>
+<java.text.MessageFormat: void <init>(java.lang.String,java.util.Locale)>
+<java.text.MessageFormat: java.lang.String format(java.lang.String,java.lang.Object[])>
+
+<java.net.URI: void <init>(java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URI: java.net.URI create(java.lang.String)>
+
+<java.net.URL: void <init>(java.lang.String)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler)>
+<java.net.URL: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+<java.net.URL: void <init>(java.net.URL,java.lang.String)>
+<java.net.URL: void <init>(java.net.URL,java.lang.String,java.net.URLStreamHandler)>
+
+<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)>
+
+<java.util.Collections: java.util.List synchronizedCollection(java.util.Collection)>
+<java.util.Collections: java.util.List synchronizedList(java.util.List)>
+<java.util.Collections: java.util.List synchronizedMap(java.util.Map)>
+<java.util.Collections: java.util.List synchronizedSet(java.util.Set)>
+<java.util.Collections: java.util.List synchronizedSortedMap(java.util.SortedMap)>
+<java.util.Collections: java.util.List synchronizedSortedSet(java.util.SortedSet)>
+
+<java.util.Collections: java.util.List unmodifiableCollection(java.util.Collection)>
+<java.util.Collections: java.util.List unmodifiableList(java.util.List)>
+<java.util.Collections: java.util.List unmodifiableMap(java.util.Map)>
+<java.util.Collections: java.util.List unmodifiableSet(java.util.Set)>
+<java.util.Collections: java.util.List unmodifiableSortedMap(java.util.SortedMap)>
+<java.util.Collections: java.util.List unmodifiableSortedSet(java.util.SortedSet)>
+
+<java.util.Collections: java.util.Set singleton(java.lang.Object)>
+<java.util.Collections: java.util.List singletonList(java.lang.Object)>
+<java.util.Collections: java.util.Map singletonMap(java.lang.Object,java.lang.Object)>
+
+<android.content.ContentValues: void put(java.lang.String,java.lang.Integer)>
+<android.content.ContentValues: void put(java.lang.String,byte[])>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Boolean)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Byte)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Double)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Float)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Long)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.Short)>
+<android.content.ContentValues: void put(java.lang.String,java.lang.String)>
+<android.content.ContentValues: void putAll(android.content.ContentValues)>
+<android.content.ContentValues: void putNull(java.lang.String)>
+
+<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>
+<android.content.Intent: android.content.Intent addFlags(int)>
+<android.content.Intent: android.content.Intent setFlags(int)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,char)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,short)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,long)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,int)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,float)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,double)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.CharSequence)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Parcelable[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.io.Serializable)>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,boolean[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,byte[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,short[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,char[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,int[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,long[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,float[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,double[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.CharSequence[])>
+<android.content.Intent: android.content.Intent putExtra(java.lang.String,android.os.Bundle)>
+<android.content.Intent: android.content.Intent putExtras(android.content.Intent)>
+<android.content.Intent: android.content.Intent putExtras(android.os.Bundle)>
+
+<org.json.JSONArray: org.json.JSONObject getJSONObject(int)>
+<org.json.JSONArray: org.json.JSONObject optJSONObject(int)>
+<org.json.JSONObject: boolean optBoolean(java.lang.String)>
+<org.json.JSONObject: double optDouble(java.lang.String)>
+<org.json.JSONObject: int getInt(java.lang.String)>
+<org.json.JSONObject: int optInt(java.lang.String)>
+<org.json.JSONObject: java.lang.Object get(java.lang.String)>
+<org.json.JSONObject: java.lang.String getString(java.lang.String)>
+<org.json.JSONObject: java.lang.String optString(java.lang.String)>
+<org.json.JSONObject: java.lang.String toString()>
+<org.json.JSONObject: long getLong(java.lang.String)>
+<org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)>
+<org.json.JSONObject: org.json.JSONArray optJSONArray(java.lang.String)>
+<org.json.JSONObject: org.json.JSONObject getJSONObject(java.lang.String)>
+<org.json.JSONObject: org.json.JSONObject optJSONObject(java.lang.String)>
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,boolean)>
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>
+<org.json.JSONObject: org.json.JSONObject put(java.lang.String,long)>
+
+<org.json.JSONObject: void <init>(java.lang.String)>
+<org.json.JSONArray: void <init>(java.lang.String)>
+<org.json.JSONArray: void <init>(java.util.Collection)>
+<org.json.JSONObject: void <init>(java.util.Map)>
+
+~<android.content.ContextWrapper: android.content.Context getBaseContext()>
+
+<android.content.IntentFilter: void addAction(java.lang.String)>
+
+<android.database.MatrixCursor: void addRow(java.lang.Object[])>
+
+<android.os.Bundle: void putBoolean(java.lang.String,boolean)>
+
+<org.apache.http.message.BasicNameValuePair: void <init>(java.lang.String,java.lang.String)>
+
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.nio.charset.Charset)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,org.apache.http.entity.ContentType)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.lang.String)>
+<org.apache.http.entity.StringEntity: void <init>(java.lang.String,java.lang.String,java.lang.String)>
+
+<java.util.Arrays: java.util.List asList(java.lang.Object[])>
+<java.util.Arrays: java.lang.Object[] copyOf(java.lang.Object[],int)>
+
+<java.util.UUID: void <init>(long,long)>
+<java.util.UUID: int hashCode()>
+<java.util.UUID: java.lang.String toString()>
+<java.util.UUID: java.util.UUID fromString(java.lang.String)>
+<java.util.UUID: java.util.UUID nameUUIDFromBytes(byte[])>
+<java.util.UUID: java.util.UUID randomUUID()>
+<java.util.UUID: long getLeastSignificantBits()>
+<java.util.UUID: long getMostSignificantBits()>
+
+<java.text.DecimalFormat: java.lang.String format(double)>
+<java.text.DecimalFormat: java.lang.String format(java.lang.Object)>
+<java.text.DecimalFormat: java.lang.String format(long)>
+<java.text.MessageFormat: java.lang.String format(java.lang.String,java.lang.Object[])>
+<java.text.MessageFormat: void <init>(java.lang.String)>
+<java.text.MessageFormat: void <init>(java.lang.String,java.util.Locale)>
+<java.text.SimpleDateFormat: java.lang.String format(java.lang.Object)>
+<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>
+<java.text.SimpleDateFormat: java.util.Date parse(java.lang.String)>
+<java.text.SimpleDateFormat: java.util.Date parse(java.lang.String,java.text.ParsePosition)>
+
+<java.text.DateFormat: java.lang.String format(java.util.Date)>
+<java.text.DateFormat: java.util.Date parse(java.lang.String)>
+<java.text.DateFormat: java.util.Date parse(java.lang.String,java.text.ParsePosition)>
+
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte[])>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(byte[],int,int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(int,byte)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer put(java.nio.ByteBuffer)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putChar(char)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putChar(int,char)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putDouble(double)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putDouble(int,double)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putFloat(float)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putFloat(int,float)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putInt(int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putInt(int,int)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putLong(int,long)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putLong(long)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putShort(int,short)>
+<java.nio.ByteBuffer: java.nio.ByteBuffer putShort(short)>
+
+<java.net.URLDecoder: java.lang.String decode(java.lang.String)>
+<java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>
+<java.net.URLEncoder: java.lang.String encode(java.lang.String)>
+<java.net.URLEncoder: java.lang.String encode(java.lang.String,java.lang.String)>
+
+~<android.app.Activity: android.view.View findViewById(int)>
+~<android.app.Activity: void setContentView(int)>
+~<android.app.Activity: void setContentView(android.view.View)>
+<android.widget.EditText: android.text.Editable getText()>
+<android.text.Editable: java.lang.String toString()>
+
+<javax.servlet.ServletResponse: java.io.PrintWriter getWriter()>
+
+# Exclude the ServerSocket stuff
+# ~<java.net.ServerSocket: java.net.Socket accept()>
+# ~<java.net.Socket: java.io.InputStream getInputStream()>
+
+<java.lang.Boolean: boolean booleanValue()>
+<java.lang.Byte: int intValue()>
+<java.lang.Double: double doubleValue()>
+<java.lang.Float: double doubleValue()>
+<java.lang.Float: float floatValue()>
+<java.lang.Integer: int intValue()>
+<java.lang.Long: long longValue()>
+<java.lang.Number: double doubleValue()>
+<java.lang.Number: long longValue()>
+<java.lang.Short: int intValue()>
+<java.lang.Short: short shortValue()>
+
+<java.lang.String: java.lang.String substring(int)>
+<java.lang.String: java.lang.String substring(int,int)>
+<java.lang.StringBuilder: java.lang.String substring(int,int)>
