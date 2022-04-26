@@ -240,7 +240,7 @@ public class Main {
 											FieldBean fb = (FieldBean) (srcFieldGetterSigs.get(srcSig));
 											fb.addLeakAPI(skSig);
 											fb.addUrls(sinkURLs);
-											Log.dumpln(Globals.LOG_FILE, "Found field leak: " + fb.getFieldSig());
+											Log.dumpln(Globals.LOG_FILE, "Found field getter leak: " + fb.getFieldSig());
 										}
 									}
 

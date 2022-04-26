@@ -164,6 +164,7 @@ public class DataBlockManager {
 				}
 
 				this.urls.add(url);
+				
 				if (AppMetaImporter.getInstance().isURL3P(url, Globals.PACKAGE_NAME)) {
 					this.urls3p.add(url);
 				}

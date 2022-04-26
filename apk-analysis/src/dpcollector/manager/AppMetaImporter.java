@@ -83,21 +83,6 @@ public class AppMetaImporter {
 	}
 
 	public boolean isURL3P(String url, String pkg) {
-		if (!this.metaMap.containsKey(pkg)) {
-			return false;
-		}
-
-		Meta meta = this.metaMap.get(pkg);
-
-		// compare url to supporting website of the app
-		String support_website = meta.support_website;
-		if (Utils.isURL(support_website)) {
-			boolean isDiffDomain = Utils.hasDiffDomain(support_website, url);
-			if (!isDiffDomain) {
-				return false;
-			}
-		}
-
 		// compare url to app package name
 		List<String> pkgDotList = Arrays.asList(pkg.split("\\."));
 		Collections.reverse(pkgDotList);
@@ -105,12 +90,26 @@ public class AppMetaImporter {
 		if (!Utils.hasDiffDomain(reversePkg, url)) {
 			return false;
 		}
-
-		// compare the url to any website mentioned in app description
-		for (String durl : meta.urls_in_description) {
-			boolean isDiffDomain = Utils.hasDiffDomain(durl, url);
-			if (!isDiffDomain) {
-				return false;
+		
+		// compare url to app metadata
+		if (this.metaMap.containsKey(pkg)) {
+			Meta meta = this.metaMap.get(pkg);
+	
+			// compare url to supporting website of the app
+			String support_website = meta.support_website;
+			if (Utils.isURL(support_website)) {
+				boolean isDiffDomain = Utils.hasDiffDomain(support_website, url);
+				if (!isDiffDomain) {
+					return false;
+				}
+			}
+	
+			// compare the url to any website mentioned in app description
+			for (String durl : meta.urls_in_description) {
+				boolean isDiffDomain = Utils.hasDiffDomain(durl, url);
+				if (!isDiffDomain) {
+					return false;
+				}
 			}
 		}
 
