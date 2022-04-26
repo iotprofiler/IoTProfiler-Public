@@ -15,7 +15,7 @@ In order to run the code, you need to install the following Java and Python depe
 #### Setup
 Please follow the below steps to run IoTProfiler.
 - Clone this repository, and place it in: $dir/IoTProfiler-Public
-- Change directory with: cd $dir/IoTProfiler-Public
+- Change directory with: cd $dir/IoTProfiler-Public/apk-analysis/
 - Compile the code with: ./compile.sh
 - Run the analysis with: ./analyze.sh $apk_dir task_id
   - where $apk_dir is the path to a folder container android's APK files.
