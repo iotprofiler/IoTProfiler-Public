@@ -10,7 +10,7 @@ public class Constants {
 
 	public static List<String> NO_INTEREST_URLS = Arrays.asList("play.google.com", "tempuri.org", "127.0.0.1",
 			"0.0.0.0", "xmlpull.org", "schemas.android.com", "www.example.com", "schema.org", "www.w3.org",
-			"www.googleapis.com", "plus.google.com");
+			"www.googleapis.com", "plus.google.com", "localhost", "00.00", "192.168.");
 	
 	public static List<String> INTERESTING_TYPES = Arrays.asList("boolean", "boolean[]", "byte", "byte[]", "char",
 			"char[]", "com.google.gson.Gson", "double", "double[]", "float", "float[]", "int", "int[]",

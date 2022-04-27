@@ -87,6 +87,12 @@ public class AppMetaImporter {
 		List<String> pkgDotList = Arrays.asList(pkg.split("\\."));
 		Collections.reverse(pkgDotList);
 		String reversePkg = String.join(".", pkgDotList);
+		
+		// naive check of SLD
+		if (pkgDotList.size() >= 2 && url.contains(pkgDotList.get(pkgDotList.size() - 2) + ".")) {
+			return false;
+		}
+		
 		if (!Utils.hasDiffDomain(reversePkg, url)) {
 			return false;
 		}

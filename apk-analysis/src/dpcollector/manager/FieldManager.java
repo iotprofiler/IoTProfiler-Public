@@ -128,7 +128,7 @@ public class FieldManager {
 			for (FieldBean bean : this.class2Fields.get(classSig)) {
 				isIotML = bean.isIotML || isIotML;
 				urls.addAll(bean.urls);
-				urls3p.addAll(urls3p);
+				urls3p.addAll(bean.urls3p);
 
 				if (bean.getField().getName().length() >= Constants.MIN_NONOBFUSCATED_LENGTH) {
 					values.add(bean.getField().getName());
@@ -186,6 +186,7 @@ public class FieldManager {
 				}
 
 				this.urls.add(url);
+				
 				if (AppMetaImporter.getInstance().isURL3P(url, Globals.PACKAGE_NAME)) {
 					this.urls3p.add(url);
 				}
